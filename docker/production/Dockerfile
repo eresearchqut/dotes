@@ -54,11 +54,11 @@ FROM python:3.8-slim
 
 ENV PYTHONUNBUFFERED 1
 
-ENV PYTHONPATH="/app/rdrf/rdrf/:/app/rotes/"
-ENV DJANGO_SETTINGS_MODULE rotes.settings
+ENV PYTHONPATH="/app/rdrf/rdrf/:/app/dotes/"
+ENV DJANGO_SETTINGS_MODULE dotes.settings
 
 ENV PROJECT_NAME angelman
-ENV PROJECT_SOURCE https://github.com/eresearchqut/rotes.git
+ENV PROJECT_SOURCE https://github.com/eresearchqut/dotes.git
 ENV DEPLOYMENT prod
 ENV PRODUCTION 1
 ENV DEBUG 0

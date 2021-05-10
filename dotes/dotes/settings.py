@@ -2,10 +2,10 @@
 import os
 
 from rdrf.settings import *
-import rotes
+import dotes
 
 
-FALLBACK_REGISTRY_CODE = "rotes"
+FALLBACK_REGISTRY_CODE = "dotes"
 LOCALE_PATHS = env.getlist("locale_paths", ['/data/translations/locale'])
 
 # Adding this project's app first, so that its templates overrides base templates
@@ -21,6 +21,6 @@ PROJECT_TITLE = env.get("project_title", "Prince Charles Ortho Registry")
 PROJECT_TITLE_LINK = "login_router"
 
 # Registration customisation (if any) goes here
-# REGISTRATION_CLASS = "rotes.custom_registration.CustomRegistration"
+# REGISTRATION_CLASS = "dotes.custom_registration.CustomRegistration"
 
-VERSION = env.get('app_version', '%s (rotes)' % rotes.VERSION)
+VERSION = env.get('app_version', '%s (dotes)' % dotes.VERSION)

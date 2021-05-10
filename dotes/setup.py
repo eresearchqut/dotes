@@ -12,10 +12,10 @@ def add_file_for_package(package, subdir, f):
 
 
 packages = [
-    'rotes',
+    'dotes',
 ]
 
-for package in ['rotes']:
+for package in ['dotes']:
     package_data[package] = []
     if "." in package:
         base_dir, package_dir = package.split(".")
@@ -39,7 +39,7 @@ for package in ['rotes']:
     os.chdir(start_dir)
 
 
-setup(name='eresearchqut-rotes',
+setup(name='eresearchqut-dotes',
       version="1.0.0",
       packages=packages,
       description='TRRF Prince Charles Ortho Registry',

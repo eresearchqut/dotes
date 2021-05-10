@@ -46,8 +46,8 @@ VOLUME ["/data"]
 
 FROM python:3.8.0-slim
 
-ENV PYTHONPATH="/app/rdrf/rdrf/:/app/rotes/"
-ENV DJANGO_SETTINGS_MODULE rotes.settings
+ENV PYTHONPATH="/app/rdrf/rdrf/:/app/dotes/"
+ENV DJANGO_SETTINGS_MODULE dotes.settings
 ENV STATIC_ROOT="/data/static"
 ENV WRITABLE_DIRECTORY="/data/scratch"
 ENV LOCALE_PATHS="/data/translations/locale"
