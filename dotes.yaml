@@ -1,0 +1,2724 @@
+EXPORT_TIME: '2023-03-28 15:02:07.589186'
+EXPORT_TYPE: REGISTRY_PLUS_CDES
+RDRF_VERSION: 1.0.0
+REGISTRY_VERSION: ''
+cde_policies: []
+cdes:
+- allow_multiple: true
+  calculation: ''
+  code: AOANJRRHipForm
+  datatype: file
+  desc: Hip Form
+  important: false
+  instructions: Please select date of surgery indicated on form. Multiple forms can
+    be added to a single entry.
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Hip Form File Upload
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: MultipleFileInput
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: AOANJRRHipFormDate
+  datatype: date
+  desc: Date of Hip Form
+  important: false
+  instructions: ''
+  is_required: true
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Date of Hip Surgery
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: DateWidget
+  widget_settings: '{}'
+- allow_multiple: true
+  calculation: ''
+  code: AOANJRRKneeForm
+  datatype: file
+  desc: ''
+  important: false
+  instructions: Please select date of surgery indicated on form. Multiple forms can
+    be added to a single entry.
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Please upload knee form
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: MultipleFileInput
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: AOANJRRKneeFormDate
+  datatype: date
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Date Knee Surgery Performed
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: DateWidget
+  widget_settings: '{}'
+- allow_multiple: true
+  calculation: ''
+  code: AOANJRRMultiForm
+  datatype: file
+  desc: ''
+  important: false
+  instructions: Please select date of surgery indicated on form. Multiple forms can
+    be added to a single entry.
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Please upload MULTI (elbow / wrist / ankle) form
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: MultipleFileInput
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: AOANJRRMultiFormDate
+  datatype: date
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Date Surgery Performed
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: DateWidget
+  widget_settings: '{}'
+- allow_multiple: true
+  calculation: ''
+  code: AOANJRRShoulderForm
+  datatype: file
+  desc: Please upload shoulder form
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Please upload shoulder form
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: MultipleFileInput
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: AOANJRRShoulderFormDate
+  datatype: date
+  desc: Date Shoulder Form Collected
+  important: false
+  instructions: ''
+  is_required: true
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Date Shoulder Surgery Performed
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: DateWidget
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: Athoscode
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: T/F Hospital
+  pattern: ''
+  pv_group: ORTAthoscodePVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: Athoscode2
+  datatype: string
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: If transferred enter hospital name of first transfer hospital
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: ''
+- allow_multiple: false
+  calculation: ''
+  code: EDadmit
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Adm via ED
+  pattern: ''
+  pv_group: ORTEDadmitPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: OAR1
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: I’ve felt unwell
+  pattern: ''
+  pv_group: OARSDSA
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: OAR10
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: I’ve not slept well
+  pattern: ''
+  pv_group: OARSDSA
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: OAR11
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: I’ve found it difficult to sleep
+  pattern: ''
+  pv_group: OARSDSA
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: OAR12
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: I’ve not been able to sleep due to the pain in the affected area
+  pattern: ''
+  pv_group: OARSDSA
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: OAR13
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: I’ve felt sick
+  pattern: ''
+  pv_group: OARSDSA
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: OAR14
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: I’ve lost my appetite
+  pattern: ''
+  pv_group: OARSDSA
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: OAR2
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: I’ve felt tired
+  pattern: ''
+  pv_group: OARSDSA
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: OAR3
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: I’ve felt faint
+  pattern: ''
+  pv_group: OARSDSA
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: OAR4
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: It’s been painful in the affected area
+  pattern: ''
+  pv_group: OARSDSA
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: OAR5
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: I’ve had pain at night in the affected area
+  pattern: ''
+  pv_group: OARSDSA
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: OAR6
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: The affected area has felt swollen
+  pattern: ''
+  pv_group: OARSDSA
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: OAR7
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: I’ve had difficulty getting into bed
+  pattern: ''
+  pv_group: OARSDSA
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: OAR8
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: I’ve not been able to stand
+  pattern: ''
+  pv_group: OARSDSA
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: OAR9
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: I’ve not been able to walk
+  pattern: ''
+  pv_group: OARSDSA
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: |-
+    var Pain1 = parseInt(context.OAR1, 10);
+    var Pain2 = parseInt(context.OAR2, 10);
+    var Pain3 = parseInt(context.OAR3, 10);
+    var Pain4 = parseInt(context.OAR4, 10);
+    var Pain5 = parseInt(context.OAR5, 10);
+    var Pain6 = parseInt(context.OAR6, 10);
+    var Pain7 = parseInt(context.OAR7, 10);
+    var Pain8 = parseInt(context.OAR8, 10);
+    var Pain9 = parseInt(context.OAR9, 10);
+    var Pain10 = parseInt(context.OAR10, 10);
+    var Pain11 = parseInt(context.OAR11, 10);
+    var Pain12 = parseInt(context.OAR12, 10);
+    var Pain13 = parseInt(context.OAR13, 10);
+    var Pain14 = parseInt(context.OAR14, 10);
+
+    var OARPAIN = Pain1 + Pain2 + Pain3 + Pain4 + Pain5 + Pain6 + Pain7 + Pain8 + Pain9 + Pain10 + Pain11 + Pain12 + Pain13 + Pain14;
+    context.result = OARPAIN || 0;
+  code: OARPAIN
+  datatype: calculated
+  desc: ''
+  important: false
+  instructions: This score will calculate once all sections above have been completed.
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Pain
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: CalculatedFieldWidget
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: OARSurgery
+  datatype: date
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: true
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Date of surgery
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: DateWidget
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: Pulcers
+  datatype: range
+  desc: New pressure injury Y/N
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: New pressure injury Y/N
+  pattern: ''
+  pv_group: ORTnyuPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: afracture
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: 'Atypical #'
+  pattern: ''
+  pv_group: ORTafracturePVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: anaesth
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Type of Anaesthetic
+  pattern: ''
+  pv_group: ORTanaesthPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: analges
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Nerve Block
+  pattern: ''
+  pv_group: ORTanalgesPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: arrdate
+  datatype: date
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: TPCH ED Arrival date
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: DateWidget
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: arrtime
+  datatype: time
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: 'TPCH ED Arrival Time:'
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: TimeWidget
+  widget_settings: '{"format":"24hour"}'
+- allow_multiple: false
+  calculation: ''
+  code: asa
+  datatype: range
+  desc: ASA
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: ASA
+  pattern: ''
+  pv_group: ORTasaPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: bonemed
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Bone protection meds
+  pattern: ''
+  pv_group: ORTbonemedPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: cogassess
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Pre-op cognitive assess
+  pattern: ''
+  pv_group: ORTcogassessPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: cogstat
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Pre-adm cognitive status
+  pattern: ''
+  pv_group: ORTcogstatPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: consult
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: 'Cons present: Y/N'
+  pattern: ''
+  pv_group: ORTnyuPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: dbonemed1
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Bone Protection on D/C
+  pattern: ''
+  pv_group: ORTdbonemed1PVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: delassess
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Delirium Assessment
+  pattern: ''
+  pv_group: ORTdeassessPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: delay
+  datatype: range
+  desc: Surgery Delay
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Surgery delay
+  pattern: ''
+  pv_group: ORTdelayPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: delayMore48
+  datatype: string
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Delay to surgery beyond 48 hours
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: ''
+- allow_multiple: false
+  calculation: ''
+  code: depdate
+  datatype: date
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: TPCH departure date
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: DateWidget
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: deptime
+  datatype: time
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: TPCH departure time
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: TimeWidget
+  widget_settings: '{"format":"12hour"}'
+- allow_multiple: false
+  calculation: ''
+  code: dresidence
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: D/C Destination
+  pattern: ''
+  pv_group: ORTdresidencePVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: fassess
+  datatype: range
+  desc: Falls assessment
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Falls assessment
+  pattern: ''
+  pv_group: ORTfassessPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: fbonemed2
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Bone Protection
+  pattern: ''
+  pv_group: ORTfbonemed2PVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: fresidence2
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Place of residence
+  pattern: ''
+  pv_group: ORTfresidence2PVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: fsurvive2
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Survival @ 120days post surgery
+  pattern: ''
+  pv_group: ORTnyuPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: ftype
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: 'Type of #'
+  pattern: ''
+  pv_group: ORTftypePVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: fwalk2
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Walking ability
+  pattern: ''
+  pv_group: ORTwalkPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: gdate
+  datatype: date
+  desc: Date of assessment
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Date of Assess
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: DateWidget
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: gerimed
+  datatype: range
+  desc: Assessed by geriatricians Y/N
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Assessed by geriatricians Y/N
+  pattern: ''
+  pv_group: ORTgerimedPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: hdisch
+  datatype: date
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Hospital D/C Date
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: DateWidget
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: mobil
+  datatype: range
+  desc: Day 1 mobilisation
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Day 1 mobilisation
+  pattern: ''
+  pv_group: ORTmobilPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: mobil2
+  datatype: range
+  desc: Day 1 walking Y/N
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Day 1 walking Y/N
+  pattern: ''
+  pv_group: ORTnyuPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: olos
+  datatype: string
+  desc: ''
+  important: false
+  instructions: 'Formula: Length of Stay (LOS) = Separation date - Admission date
+    - Total leave days. The calculation is inclusive of admission and separation dates.
+    LOS will be calculated automatically from the operating hospital separation and
+    admission dates.'
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: LOS in acute ward
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: ''
+- allow_multiple: false
+  calculation: ''
+  code: optype
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Type of Surgery
+  pattern: ''
+  pv_group: ORToptypePVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: painassess
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: 'Pain assessment in ED:'
+  pattern: ''
+  pv_group: ORTpainassessPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: painmanage
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Pain management in ED/Prior to ED
+  pattern: ''
+  pv_group: ORTpainmanagePVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: passess
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Preop medical assess
+  pattern: ''
+  pv_group: ORTpassessPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: postOp4AT
+  datatype: integer
+  desc: ''
+  important: false
+  instructions: Allowable range 0-12
+  is_required: false
+  max_length: null
+  max_value: '12.00'
+  min_value: '0.00'
+  name: Post-Op 4AT Score
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: postOpClinMal
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Clinical Malnutrition Assessment
+  pattern: ''
+  pv_group: ORTpostOpClinMalPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: postOpMST
+  datatype: integer
+  desc: ''
+  important: false
+  instructions: Allowable range 0-5
+  is_required: false
+  max_length: null
+  max_value: '5.00'
+  min_value: '0.00'
+  name: Post-Op MST Score
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: preOp4AT
+  datatype: integer
+  desc: ''
+  important: false
+  instructions: Allowable range 0-12
+  is_required: false
+  max_length: null
+  max_value: '12.00'
+  min_value: '0.00'
+  name: Pre-Op 4AT Score
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: ''
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: predod
+  datatype: date
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Date of Death
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: DateWidget
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: ptype
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Public/Private/Overseas Paeron\\w
+  pattern: ''
+  pv_group: ORTptypePVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: sdate
+  datatype: date
+  desc: Date of Surgery
+  important: false
+  instructions: ''
+  is_required: true
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Date of Surgery
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: DateWidget
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: side
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: 'Side of #'
+  pattern: ''
+  pv_group: ORTsidePVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: stime
+  datatype: time
+  desc: Time of surgery
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Time of surgery
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: TimeWidget
+  widget_settings: '{"format":"24hour"}'
+- allow_multiple: false
+  calculation: ''
+  code: surg
+  datatype: range
+  desc: Surgery performed?
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Surgery performed?
+  pattern: ''
+  pv_group: ORTnoyesPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: tarrdate
+  datatype: date
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: T/F Hospital arrival date
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: DateWidget
+  widget_settings: '{}'
+- allow_multiple: false
+  calculation: ''
+  code: tarrtime
+  datatype: time
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: T/F Hospital arrival time
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: TimeWidget
+  widget_settings: '{"format":"24hour"}'
+- allow_multiple: false
+  calculation: ''
+  code: uresidence
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Usual Residence
+  pattern: ''
+  pv_group: ORTresidencePVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: walk
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Pre-adm mobility
+  pattern: ''
+  pv_group: ORTwalkPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: ward
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Ward type
+  pattern: ''
+  pv_group: ORTwardPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: wbear
+  datatype: range
+  desc: Weight bear status
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Weight bear status
+  pattern: ''
+  pv_group: ORTwbearPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: wdest
+  datatype: range
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Acute ward D/C destination
+  pattern: ''
+  pv_group: ORTwdestPVG
+  questionnaire_text: ''
+  widget_name: RadioSelect
+  widget_settings: '{"force_vertical":true}'
+- allow_multiple: false
+  calculation: ''
+  code: wdisch
+  datatype: date
+  desc: ''
+  important: false
+  instructions: ''
+  is_required: false
+  max_length: null
+  max_value: null
+  min_value: null
+  name: Acute ward D/C date
+  pattern: ''
+  pv_group: null
+  questionnaire_text: ''
+  widget_name: DateWidget
+  widget_settings: '{}'
+code: dotes
+complete_fields:
+- cdes:
+  - ptype
+  form_name: ANZHFR
+consent_configuration:
+  consent_locked: true
+  esignature: enabled
+consent_rules: []
+consent_sections:
+- applicability_condition: ''
+  code: ANZHFR
+  information_link: null
+  information_text: Welcome to the ANZHFR registry! Please check the consent to continue.
+  questions:
+  - code: ConsentQuestion1
+    instructions: ''
+    position: 1
+    question_label: Has patient consent been confirmed?
+    questionnaire_label: ''
+  section_label: Consent Section 1
+  validation_rule: ''
+context_form_groups:
+- context_type: M
+  forms:
+  - ANZHFR
+  is_default: false
+  name: ANZHFR
+  naming_cde_to_use: ANZHFR/SurgIntra/sdate
+  naming_scheme: C
+  ordering: N
+  sort_order: 1
+- context_type: M
+  forms:
+  - AOANJRRHip
+  is_default: true
+  name: AOANJRR Hip
+  naming_cde_to_use: AOANJRRHip/HipSection/AOANJRRHipFormDate
+  naming_scheme: C
+  ordering: N
+  sort_order: 1
+- context_type: M
+  forms:
+  - AOANJRRKnee
+  is_default: false
+  name: AOANJRR Knee
+  naming_cde_to_use: AOANJRRKnee/KneeSection/AOANJRRKneeFormDate
+  naming_scheme: C
+  ordering: N
+  sort_order: 1
+- context_type: M
+  forms:
+  - AOANJRRMulti
+  is_default: false
+  name: AOANJRR Multi
+  naming_cde_to_use: AOANJRRMulti/MultiSection/AOANJRRMultiFormDate
+  naming_scheme: C
+  ordering: N
+  sort_order: 1
+- context_type: M
+  forms:
+  - AOANJRRShoulder
+  is_default: false
+  name: AOANJRR Shoulder
+  naming_cde_to_use: AOANJRRShoulder/ShoulderSection/AOANJRRShoulderFormDate
+  naming_scheme: C
+  ordering: N
+  sort_order: 1
+- context_type: M
+  forms:
+  - OARS
+  is_default: false
+  name: The Oxford Arthroplasty Early Recovery Score (OARS)
+  naming_cde_to_use: OARS/OARDATE/OARSurgery
+  naming_scheme: C
+  ordering: C
+  sort_order: 1
+demographic_fields: []
+desc: Prince Charles Orthopedic Surgery
+email_notifications: []
+form_titles: null
+forms:
+- applicability_condition: ''
+  conditional_rendering_rules: gdate visible if gerimed == Yes
+  display_name: ANZHFR Form
+  header: <h2>ANHFR Data Capture</h2>
+  is_questionnaire: false
+  name: ANZHFR
+  position: 1
+  questionnaire_display_name: ''
+  questionnaire_questions: ''
+  sections:
+  - allow_multiple: false
+    code: PreAdPreOp
+    display_name: Pre-admission/ Pre-op
+    elements:
+    - ptype
+    - uresidence
+    - EDadmit
+    - Athoscode
+    - Athoscode2
+    - tarrdate
+    - tarrtime
+    - arrdate
+    - arrtime
+    - depdate
+    - deptime
+    - ward
+    - walk
+    - painassess
+    - painmanage
+    - cogstat
+    - cogassess
+    - bonemed
+    - preOp4AT
+    - passess
+    extra: null
+    questionnaire_display_name: ''
+    questionnaire_help: ''
+  - allow_multiple: false
+    code: SurgIntra
+    display_name: Surgical/Intra-Op
+    elements:
+    - side
+    - afracture
+    - ftype
+    - surg
+    - sdate
+    - stime
+    - delay
+    - delayMore48
+    - asa
+    - anaesth
+    - analges
+    - consult
+    - optype
+    extra: null
+    questionnaire_display_name: ''
+    questionnaire_help: ''
+  - allow_multiple: false
+    code: PostOp
+    display_name: Post-Op
+    elements:
+    - wbear
+    - mobil
+    - mobil2
+    - delassess
+    - postOp4AT
+    - Pulcers
+    - postOpClinMal
+    - postOpMST
+    - fassess
+    - gerimed
+    - gdate
+    extra: null
+    questionnaire_display_name: ''
+    questionnaire_help: ''
+  - allow_multiple: false
+    code: Discharge
+    display_name: Discharge
+    elements:
+    - wdisch
+    - olos
+    - wdest
+    - hdisch
+    - dresidence
+    - dbonemed1
+    extra: null
+    questionnaire_display_name: ''
+    questionnaire_help: ''
+  - allow_multiple: false
+    code: FollowUp
+    display_name: 120 day follow up
+    elements:
+    - fsurvive2
+    - fresidence2
+    - fwalk2
+    - fbonemed2
+    - predod
+    extra: null
+    questionnaire_display_name: ''
+    questionnaire_help: ''
+  tags: []
+- applicability_condition: ''
+  conditional_rendering_rules: ''
+  display_name: AOANJRR Hip
+  header: <h2> Hip AOANJRR forms </h2>
+  is_questionnaire: false
+  name: AOANJRRHip
+  position: 0
+  questionnaire_display_name: ''
+  questionnaire_questions: ''
+  sections:
+  - allow_multiple: false
+    code: HipSection
+    display_name: Hip Forms
+    elements:
+    - AOANJRRHipFormDate
+    - AOANJRRHipForm
+    extra: null
+    questionnaire_display_name: ''
+    questionnaire_help: ''
+  tags: []
+- applicability_condition: ''
+  conditional_rendering_rules: ''
+  display_name: AOANJRR Knee
+  header: <h2> Knee AOANJRR forms </h2>
+  is_questionnaire: false
+  name: AOANJRRKnee
+  position: 0
+  questionnaire_display_name: ''
+  questionnaire_questions: ''
+  sections:
+  - allow_multiple: false
+    code: KneeSection
+    display_name: Knee Forms
+    elements:
+    - AOANJRRKneeFormDate
+    - AOANJRRKneeForm
+    extra: null
+    questionnaire_display_name: ''
+    questionnaire_help: ''
+  tags: []
+- applicability_condition: ''
+  conditional_rendering_rules: ''
+  display_name: AOANJRR Multi (elbow / wrist / knee)
+  header: <h2> Multi AOANJRR forms </h2>
+  is_questionnaire: false
+  name: AOANJRRMulti
+  position: 0
+  questionnaire_display_name: ''
+  questionnaire_questions: ''
+  sections:
+  - allow_multiple: false
+    code: MultiSection
+    display_name: MULTI (elbow / wrist / ankle) Forms
+    elements:
+    - AOANJRRMultiFormDate
+    - AOANJRRMultiForm
+    extra: null
+    questionnaire_display_name: ''
+    questionnaire_help: ''
+  tags: []
+- applicability_condition: ''
+  conditional_rendering_rules: ''
+  display_name: AOANJRR Shoulder
+  header: <h2>Shoulder AOANJRR Forms</h2>
+  is_questionnaire: false
+  name: AOANJRRShoulder
+  position: 0
+  questionnaire_display_name: ''
+  questionnaire_questions: ''
+  sections:
+  - allow_multiple: false
+    code: ShoulderSection
+    display_name: Shoulder Forms
+    elements:
+    - AOANJRRShoulderFormDate
+    - AOANJRRShoulderForm
+    extra: null
+    questionnaire_display_name: ''
+    questionnaire_help: ''
+  tags: []
+- applicability_condition: ''
+  conditional_rendering_rules: ''
+  display_name: The Oxford Arthroplasty Early Recovery Score (OARS)
+  header: ''
+  is_questionnaire: false
+  name: OARS
+  position: 0
+  questionnaire_display_name: ''
+  questionnaire_questions: ''
+  sections:
+  - allow_multiple: false
+    code: OARDATE
+    display_name: Date of Surgery
+    elements:
+    - OARSurgery
+    extra: null
+    questionnaire_display_name: ''
+    questionnaire_help: ''
+  - allow_multiple: false
+    code: OARQ
+    display_name: Oxford Arthroplasty Early Recovery Score (OARS)
+    elements:
+    - OAR1
+    - OAR2
+    - OAR3
+    - OAR4
+    - OAR5
+    - OAR6
+    - OAR7
+    - OAR8
+    - OAR9
+    - OAR10
+    - OAR11
+    - OAR12
+    - OAR13
+    - OAR14
+    extra: null
+    questionnaire_display_name: ''
+    questionnaire_help: ''
+  - allow_multiple: false
+    code: OARCalc
+    display_name: OARS Calculations
+    elements:
+    - OARPAIN
+    extra: null
+    questionnaire_display_name: ''
+    questionnaire_help: ''
+  tags: []
+forms_allowed_groups:
+  ANZHFR:
+  - Admin
+  - Patients
+  AOANJRRHip:
+  - Admin
+  - Patients
+  AOANJRRKnee:
+  - Admin
+  AOANJRRMulti:
+  - Admin
+  AOANJRRShoulder:
+  - Admin
+  - Patients
+  OARS:
+  - Admin
+  - Patients
+forms_readonly_groups:
+  ANZHFR: []
+  AOANJRRHip: []
+  AOANJRRKnee: []
+  AOANJRRMulti: []
+  AOANJRRShoulder: []
+  OARS: []
+generic_sections: []
+group_permissions:
+- name: Patients
+  permissions: []
+- name: Admin
+  permissions: []
+metadata_json: '{"features": ["contexts"]}'
+name: DOTES
+patient_data_section: {}
+patient_stage_rules: []
+patient_stages: []
+pvgs:
+- code: OARSDSA
+  values:
+  - code: '4'
+    desc: Strongly disagree
+    position: 5
+    questionnaire_value: null
+    value: Strongly disagree
+  - code: '3'
+    desc: Disagree
+    position: 4
+    questionnaire_value: null
+    value: Disagree
+  - code: '2'
+    desc: Neither agree nor disagree
+    position: 3
+    questionnaire_value: null
+    value: Neither agree nor disagree
+  - code: '1'
+    desc: Agree
+    position: 2
+    questionnaire_value: null
+    value: Agree
+  - code: '0'
+    desc: Strongly agree
+    position: 1
+    questionnaire_value: null
+    value: Strongly agree
+- code: ORTAthoscodePVG
+  values:
+  - code: NotTran
+    desc: Not transferred
+    position: 1
+    questionnaire_value: Not transferred
+    value: Not transferred
+  - code: 2Trans
+    desc: Transferred
+    position: 2
+    questionnaire_value: Transferred
+    value: Transferred
+- code: ORTEDadmitPVG
+  values:
+  - code: 1Yes
+    desc: 'Yes'
+    position: 1
+    questionnaire_value: null
+    value: 'Yes'
+  - code: 2NoTransfer
+    desc: No transferred from another hospital
+    position: 2
+    questionnaire_value: null
+    value: No transferred from another hospital
+  - code: 3NoInpatient
+    desc: No was an inpatient fall
+    position: 3
+    questionnaire_value: null
+    value: No was an inpatient fall
+  - code: 9OthUnk
+    desc: Other / Not known
+    position: 4
+    questionnaire_value: null
+    value: Other / Not known
+- code: ORTafracturePVG
+  values:
+  - code: 0NotPathOrAtypFracture
+    desc: Not a pathological or atypical fracture
+    position: 1
+    questionnaire_value: null
+    value: Not a pathological or atypical fracture
+  - code: 1PathologicalFracture
+    desc: Pathological fracture
+    position: 1
+    questionnaire_value: null
+    value: Pathological fracture
+  - code: 2AtypicalFracture
+    desc: Atypical fracture
+    position: 2
+    questionnaire_value: null
+    value: Atypical fracture
+- code: ORTanaesthPVG
+  values:
+  - code: 1General
+    desc: General anaesthesia
+    position: 1
+    questionnaire_value: null
+    value: General anaesthesia
+  - code: 5Spinal
+    desc: Spinal / regional anaesthesia
+    position: 2
+    questionnaire_value: null
+    value: Spinal / regional anaesthesia
+  - code: 6GeneralSpinal
+    desc: General and spinal/regional anaesthesia
+    position: 3
+    questionnaire_value: null
+    value: General and spinal/regional anaesthesia
+  - code: 97Other
+    desc: Other
+    position: 4
+    questionnaire_value: null
+    value: Other
+  - code: 99Unknown
+    desc: Not known
+    position: 5
+    questionnaire_value: null
+    value: Not known
+- code: ORTanalgesPVG
+  values:
+  - code: 1NerveBlockPriorOT
+    desc: Nerve block administered before arriving in OT
+    position: 1
+    questionnaire_value: null
+    value: Nerve block administered before arriving in OT
+  - code: 2NerveBlockOT
+    desc: Nerve block administered in OT
+    position: 2
+    questionnaire_value: null
+    value: Nerve block administered in OT
+  - code: 3Both
+    desc: Both
+    position: 3
+    questionnaire_value: null
+    value: Both
+  - code: 4Neither
+    desc: Neither
+    position: 4
+    questionnaire_value: null
+    value: Neither
+  - code: 99Unknown
+    desc: Not known
+    position: 5
+    questionnaire_value: null
+    value: Not known
+- code: ORTasaPVG
+  values:
+  - code: 1HealthyNoDisease
+    desc: 1 Healthy individual with no systemic disease
+    position: 1
+    questionnaire_value: null
+    value: Healthy individual with no systemic disease
+  - code: 2MildSysDisease
+    desc: 2 Mild systemic disease not limiting activity
+    position: 2
+    questionnaire_value: null
+    value: Mild systemic disease not limiting activity
+  - code: 3SevSysNotIncap
+    desc: 3 Severe systemic disease that limits activity but is not incapacitating
+    position: 3
+    questionnaire_value: null
+    value: Severe systemic disease that limits activity but is not incapacitating
+  - code: 4IncapSysLifeThreat
+    desc: 4 Incapacitating systemic disease which is constantly life threatening
+    position: 4
+    questionnaire_value: null
+    value: Incapacitating systemic disease which is constantly life threatening
+  - code: 5Moribund
+    desc: 5 Moribund not expected to survive 24 hours with or without surgery
+    position: 5
+    questionnaire_value: null
+    value: Moribund not expected to survive 24 hours with or without surgery
+  - code: 9ASANotKnown
+    desc: 9 Not Known
+    position: 6
+    questionnaire_value: null
+    value: Not Known
+- code: ORTbonemedPVG
+  values:
+  - code: 0no
+    desc: No bone protection medication
+    position: 1
+    questionnaire_value: null
+    value: No bone protection medication
+  - code: 1Yes
+    desc: Yes - Calcium and/or vitamin D only
+    position: 2
+    questionnaire_value: null
+    value: Yes - Calcium and/or vitamin D only
+  - code: 2YesBispho
+    desc: Yes - Bisphosphonates, denosumab or teriparitide (with or without calcium
+      and/or vitamin D)
+    position: 3
+    questionnaire_value: null
+    value: Yes - Bisphosphonates, denosumab or teriparitide (with or without calcium
+      and/or vitamin D)
+  - code: 9Unknown
+    desc: Not known
+    position: 4
+    questionnaire_value: null
+    value: Not known
+- code: ORTcogassessPVG
+  values:
+  - code: 1CogNormal
+    desc: Cognition assessed and normal
+    position: 1
+    questionnaire_value: null
+    value: Cognition assessed and normal
+  - code: 2NotAssess
+    desc: Cognition not assessed
+    position: 2
+    questionnaire_value: null
+    value: Cognition not assessed
+  - code: 3CogImp
+    desc: Cognition assessed and impaired
+    position: 3
+    questionnaire_value: null
+    value: Cognition assessed and impaired
+  - code: 9Unknown
+    desc: Not known
+    position: 4
+    questionnaire_value: null
+    value: Not known
+- code: ORTcogstatPVG
+  values:
+  - code: 1Normal
+    desc: Normal cognition
+    position: 1
+    questionnaire_value: null
+    value: Normal cognition
+  - code: 2impaired
+    desc: Impaired cognition or known dementia
+    position: 2
+    questionnaire_value: null
+    value: Impaired cognition or known dementia
+  - code: 9Unknown
+    desc: Not known
+    position: 3
+    questionnaire_value: null
+    value: Not known
+- code: ORTdbonemed1PVG
+  values:
+  - code: 0NoBoneMed
+    desc: 0 No bone protection medication
+    position: null
+    questionnaire_value: null
+    value: No bone protection medication
+  - code: 1YesCalVD
+    desc: 1 Yes - Calcium and/or vitamin D only
+    position: null
+    questionnaire_value: null
+    value: Yes - Calcium and/or vitamin D only
+  - code: 2YesBisDenTeri
+    desc: 2 Yes - Bisphosphonates, denosumab or teriparatide (with or without calcium
+      and/or vitamin D)
+    position: null
+    questionnaire_value: null
+    value: Yes - Bisphosphonates, denosumab or teriparatide (with or without calcium
+      and/or vitamin D)
+  - code: 9Notknown
+    desc: 9 Not known
+    position: null
+    questionnaire_value: null
+    value: Not known
+- code: ORTdeassessPVG
+  values:
+  - code: 1NotAssessed
+    desc: 1 Not assessed
+    position: 1
+    questionnaire_value: null
+    value: Not assessed
+  - code: 2AssessedNotID
+    desc: 2 Assessed and not identified
+    position: 2
+    questionnaire_value: null
+    value: Assessed and not identified
+  - code: 3AssessedandID
+    desc: 3 Assessed and identified
+    position: 3
+    questionnaire_value: null
+    value: Assessed and identified
+  - code: 9Notknown
+    desc: 9 Not known
+    position: 4
+    questionnaire_value: null
+    value: Not known
+- code: ORTdelayPVG
+  values:
+  - code: 1NoDelay
+    desc: 1 No delay, surgery completed <48 hours
+    position: 1
+    questionnaire_value: null
+    value: 1 No delay, surgery completed <48 hours
+  - code: 2DelayMedicalUnfit
+    desc: 2 Delay due to patient deemed medically unfit
+    position: 2
+    questionnaire_value: null
+    value: Delay due to patient deemed medically unfit
+  - code: 3DelayAnticoagulation
+    desc: 3 Delay due to issues with anticoagulation
+    position: 3
+    questionnaire_value: null
+    value: Delay due to issues with anticoagulation
+  - code: 4DelayTheatre
+    desc: 4 Delay due to theatre availability
+    position: 4
+    questionnaire_value: null
+    value: Delay due to theatre availability
+  - code: 5DelaySurgeon
+    desc: 5 Delay due to surgeon availability
+    position: 5
+    questionnaire_value: null
+    value: Delay due to surgeon availability
+  - code: 6DelayDiagnosis
+    desc: 6 Delay due to delayed diagnosis of hip fracture
+    position: 6
+    questionnaire_value: null
+    value: Delay due to delayed diagnosis of hip fracture
+  - code: 7DelayOther
+    desc: 7 Other type of delay
+    position: 7
+    questionnaire_value: null
+    value: Other type of delay
+  - code: 9DelayNotKnown
+    desc: 9 Not known
+    position: 8
+    questionnaire_value: null
+    value: Not known
+- code: ORTdresidencePVG
+  values:
+  - code: 1PrivRes
+    desc: 1 Private residence (including unit in retirement village)
+    position: 1
+    questionnaire_value: null
+    value: Private residence (including unit in retirement village)
+  - code: 2ResAgedCare
+    desc: 2 Residential aged care / rest home
+    position: 2
+    questionnaire_value: null
+    value: Residential aged care / rest home
+  - code: 3Deceased
+    desc: 3 Deceased
+    position: 3
+    questionnaire_value: null
+    value: Deceased
+  - code: 7Other
+    desc: 7 Other
+    position: 4
+    questionnaire_value: null
+    value: Other
+  - code: 9NotKnown
+    desc: 9 Not known
+    position: 5
+    questionnaire_value: null
+    value: Not Known
+- code: ORTfassessPVG
+  values:
+  - code: 0No
+    desc: 0 No
+    position: 0
+    questionnaire_value: null
+    value: 'No'
+  - code: 1PerfAdmiss
+    desc: 1 Performed during admission
+    position: 1
+    questionnaire_value: null
+    value: Performed during admission
+  - code: 2AwaitsClinAssess
+    desc: 2 Awaits falls clinic assessment
+    position: 2
+    questionnaire_value: null
+    value: Awaits falls clinic assessment
+  - code: 3NotApprop
+    desc: 3 Further intervention not appropriate
+    position: 3
+    questionnaire_value: null
+    value: Further intervention not appropriate
+  - code: 8NotRelevant
+    desc: 8 Not relevant, e.g. patient died
+    position: 4
+    questionnaire_value: null
+    value: Not relevant, e.g. patient died
+  - code: 9NotKnown
+    desc: 9 Not known
+    position: 5
+    questionnaire_value: null
+    value: Not Known
+- code: ORTfbonemed2PVG
+  values:
+  - code: 0No
+    desc: No bone protection medication
+    position: null
+    questionnaire_value: null
+    value: No bone protection medication
+  - code: 5CalciumVitD
+    desc: Yes - Calcium and/or vitamin D only
+    position: 2
+    questionnaire_value: null
+    value: Yes - Calcium and/or vitamin D only
+  - code: Bisphosphonates
+    desc: Yes - Bisphosphonates, denosumab or teriparitide (with or without calcium
+      and/or vitamin D)
+    position: 3
+    questionnaire_value: null
+    value: Yes - Bisphosphonates, denosumab or teriparitide (with or without calcium
+      and/or vitamin D)
+  - code: 9Unknown
+    desc: Not known
+    position: 4
+    questionnaire_value: null
+    value: Not known
+- code: ORTfresidence2PVG
+  values:
+  - code: 1Private
+    desc: Private residence (including unit in retirement village)
+    position: 1
+    questionnaire_value: null
+    value: Private residence (including unit in retirement village)
+  - code: 2Residential
+    desc: Residential aged care / rest home
+    position: 2
+    questionnaire_value: null
+    value: Residential aged care / rest home
+  - code: 3RehabPublic
+    desc: Rehabilitation unit public
+    position: 3
+    questionnaire_value: null
+    value: Rehabilitation unit public
+  - code: 4RehabPrivate
+    desc: Rehabilitation unit private
+    position: 4
+    questionnaire_value: null
+    value: Rehabilitation unit private
+  - code: 5OtherHospital
+    desc: Other hospital / ward / specialty
+    position: 5
+    questionnaire_value: null
+    value: Other hospital / ward / specialty
+  - code: 6Deceased
+    desc: Deceased
+    position: 6
+    questionnaire_value: null
+    value: Deceased
+  - code: 7ShortTerm
+    desc: Short term care in residential care facility (New Zealand only)
+    position: 7
+    questionnaire_value: null
+    value: Short term care in residential care facility (New Zealand only)
+  - code: 97Other
+    desc: Other
+    position: 8
+    questionnaire_value: null
+    value: Other
+  - code: 99Unknown
+    desc: Not known
+    position: 9
+    questionnaire_value: null
+    value: Not known
+- code: ORTftypePVG
+  values:
+  - code: 1intracapUndisImpDis
+    desc: 1 Intracapsular undisplaced/impacted displaced
+    position: 1
+    questionnaire_value: null
+    value: Intracapsular undisplaced/impacted displaced
+  - code: 2Intracapdisp
+    desc: 2 Intracapsular displaced
+    position: 2
+    questionnaire_value: null
+    value: Intracapsular displaced
+  - code: 3Perintertrochanteric
+    desc: 3 Per/intertrochanteric
+    position: 3
+    questionnaire_value: null
+    value: Per/intertrochanteric
+  - code: 4Subtrochanteric
+    desc: 4 Subtrochanteric
+    position: 4
+    questionnaire_value: null
+    value: Subtrochanteric
+- code: ORTgerimedPVG
+  values:
+  - code: 0No
+    desc: 0 No
+    position: 0
+    questionnaire_value: null
+    value: 'No'
+  - code: 1Yes
+    desc: 1 Yes
+    position: 1
+    questionnaire_value: null
+    value: 'Yes'
+  - code: 8NoGermedAvail
+    desc: 8 No geriatric medicine service available
+    position: 2
+    questionnaire_value: null
+    value: No geriatric medicine service available
+  - code: 9Notknown
+    desc: 9 Not known
+    position: 3
+    questionnaire_value: null
+    value: Not Known
+- code: ORTmobilPVG
+  values:
+  - code: 0PatientGivenOp
+    desc: 0 Patient given opportunity to start mobilising day 1 post surgery
+    position: 0
+    questionnaire_value: null
+    value: Patient given opportunity to start mobilising day 1 post surgery
+  - code: 1PatientNotGivenOp
+    desc: 1 Patient not given opportunity to start mobilising day 1 post surgery
+    position: 1
+    questionnaire_value: null
+    value: Patient not given opportunity to start mobilising day 1 post surgery
+  - code: 9Notknown
+    desc: 9 Not known
+    position: 2
+    questionnaire_value: null
+    value: Not known
+- code: ORTnoyesPVG
+  values:
+  - code: 1no
+    desc: 'No'
+    position: 1
+    questionnaire_value: null
+    value: 'No'
+  - code: 2Yes
+    desc: 'Yes'
+    position: 2
+    questionnaire_value: null
+    value: 'Yes'
+- code: ORTnyuPVG
+  values:
+  - code: 0No
+    desc: 'No'
+    position: 1
+    questionnaire_value: null
+    value: 'No'
+  - code: 1Yes
+    desc: 'Yes'
+    position: 2
+    questionnaire_value: null
+    value: 'Yes'
+  - code: 9Unknown
+    desc: Not known
+    position: 3
+    questionnaire_value: null
+    value: Not known
+- code: ORToptypePVG
+  values:
+  - code: 1Cannulated
+    desc: Cannulated screws (e.g. multiple screws)
+    position: 1
+    questionnaire_value: null
+    value: Cannulated screws (e.g. multiple screws)
+  - code: 2Sliding
+    desc: Sliding hip screw
+    position: 2
+    questionnaire_value: null
+    value: Sliding hip screw
+  - code: 3IntramedullaryShort
+    desc: Intramedullary nail short
+    position: 3
+    questionnaire_value: null
+    value: Intramedullary nail short
+  - code: 4IntramedullaryLong
+    desc: Intramedullary nail long
+    position: 4
+    questionnaire_value: null
+    value: Intramedullary nail long
+  - code: 5HemiarthroplastyCemented
+    desc: Hemiarthroplasty stem cemented
+    position: 5
+    questionnaire_value: null
+    value: Hemiarthroplasty stem cemented
+  - code: 6HemiarthroplastyUncemented
+    desc: Hemiarthroplasty stem uncemented
+    position: 6
+    questionnaire_value: null
+    value: Hemiarthroplasty stem uncemented
+  - code: 7TotalHipRepCement
+    desc: Total hip replacement stem cemented
+    position: 7
+    questionnaire_value: null
+    value: Total hip replacement stem cemented
+  - code: 8TotalHipRepUncement
+    desc: Total hip replacement stem uncemented
+    position: 8
+    questionnaire_value: null
+    value: Total hip replacement stem uncemented
+  - code: 97Other
+    desc: Other
+    position: 9
+    questionnaire_value: null
+    value: Other
+  - code: 99Unknown
+    desc: Not known
+    position: 10
+    questionnaire_value: null
+    value: Not known
+- code: ORTpainassessPVG
+  values:
+  - code: 130mins
+    desc: Documented assessment of pain within 30 minutes of ED presentation
+    position: 1
+    questionnaire_value: null
+    value: Documented assessment of pain within 30 minutes of ED presentation
+  - code: 2Over30min
+    desc: Documented assessment of pain greater than 30 minutes of ED presentation
+    position: 2
+    questionnaire_value: null
+    value: Documented assessment of pain greater than 30 minutes of ED presentation
+  - code: 3Notdone
+    desc: Pain assessment not documented or not done
+    position: 3
+    questionnaire_value: null
+    value: Pain assessment not documented or not done
+  - code: 4Unknown
+    desc: Not known
+    position: 4
+    questionnaire_value: null
+    value: Not known
+- code: ORTpainmanagePVG
+  values:
+  - code: 1Analgesia
+    desc: Analgesia given within 30 minutes of ED presentation
+    position: 1
+    questionnaire_value: null
+    value: Analgesia given within 30 minutes of ED presentation
+  - code: 2AnalgesiaMore30
+    desc: Analgesia given more than 30 minutes after ED presentation
+    position: 2
+    questionnaire_value: null
+    value: Analgesia given more than 30 minutes after ED presentation
+  - code: 3Paramedics
+    desc: Analgesia provided by paramedics
+    position: 3
+    questionnaire_value: null
+    value: Analgesia provided by paramedics
+  - code: 4NotReq
+    desc: Analgesia not required
+    position: 4
+    questionnaire_value: null
+    value: Analgesia not required
+  - code: 9Unknown
+    desc: Not known
+    position: 5
+    questionnaire_value: null
+    value: Not known
+- code: ORTpassessPVG
+  values:
+  - code: 0No
+    desc: No assessment conducted
+    position: 1
+    questionnaire_value: null
+    value: No assessment conducted
+  - code: 1Geriatrician
+    desc: Geriatrician / Geriatric Team
+    position: 2
+    questionnaire_value: null
+    value: Geriatrician / Geriatric Team
+  - code: 2Physician
+    desc: Physician / Physician Team
+    position: 3
+    questionnaire_value: null
+    value: Physician / Physician Team
+  - code: 3GP
+    desc: GP
+    position: 4
+    questionnaire_value: null
+    value: GP
+  - code: 4Specialist
+    desc: Specialist nurse
+    position: 5
+    questionnaire_value: null
+    value: Specialist nurse
+  - code: 9Unknown
+    desc: Not known
+    position: 6
+    questionnaire_value: null
+    value: Not known
+- code: ORTpostOpClinMalPVG
+  values:
+  - code: 0NotDone
+    desc: 0 Not done
+    position: null
+    questionnaire_value: null
+    value: Not Done
+  - code: 1Malnourished
+    desc: 1 Malnourished
+    position: null
+    questionnaire_value: null
+    value: Malnourished
+  - code: 2notMal
+    desc: 2 Not malnourished
+    position: null
+    questionnaire_value: null
+    value: Not Malnourished
+  - code: 9Notknown
+    desc: 9 Not known
+    position: null
+    questionnaire_value: null
+    value: Not known
+- code: ORTptypePVG
+  values:
+  - code: 1Public
+    desc: Public
+    position: 1
+    questionnaire_value: Public
+    value: Public
+  - code: 2Private
+    desc: Private
+    position: 2
+    questionnaire_value: null
+    value: Private
+  - code: 3Overseas
+    desc: Overseas
+    position: 3
+    questionnaire_value: Overseas
+    value: Overseas
+  - code: 9NotKnown
+    desc: Not known
+    position: 9
+    questionnaire_value: Not known
+    value: Not known
+- code: ORTresidencePVG
+  values:
+  - code: 1Private
+    desc: Private residence (including unit in retirement village)
+    position: 1
+    questionnaire_value: null
+    value: Private residence (including unit in retirement village)
+  - code: 2AgedCare
+    desc: Residential aged care facility
+    position: 2
+    questionnaire_value: null
+    value: Residential aged care facility
+  - code: 3Other
+    desc: Other
+    position: 3
+    questionnaire_value: null
+    value: Other
+  - code: 4Unknown
+    desc: Not known
+    position: 4
+    questionnaire_value: null
+    value: Not known
+- code: ORTsidePVG
+  values:
+  - code: 1Left
+    desc: Left
+    position: 1
+    questionnaire_value: null
+    value: Left
+  - code: 2Right
+    desc: Right
+    position: 2
+    questionnaire_value: null
+    value: Right
+- code: ORTwalkPVG
+  values:
+  - code: 1Without
+    desc: Usually walks without walking aids
+    position: 1
+    questionnaire_value: null
+    value: Usually walks without walking aids
+  - code: 2Aid
+    desc: Usually walks with either a stick or crutch
+    position: 2
+    questionnaire_value: null
+    value: Usually walks with either a stick or crutch
+  - code: 3Aid2
+    desc: Usually walks with two aids or frame (with or without assistance of a person)
+    position: 3
+    questionnaire_value: null
+    value: Usually walks with two aids or frame (with or without assistance of a person)
+  - code: 4Wheel
+    desc: Usually uses a wheelchair / bed bound
+    position: 4
+    questionnaire_value: null
+    value: Usually uses a wheelchair / bed bound
+  - code: 9Unknown
+    desc: Not known
+    position: 5
+    questionnaire_value: null
+    value: Not known
+- code: ORTwardPVG
+  values:
+  - code: 1Hip
+    desc: Hip fracture unit/Orthopaedic ward/ Preferred ward
+    position: 1
+    questionnaire_value: null
+    value: Hip fracture unit/Orthopaedic ward/ Preferred ward
+  - code: 2Outlying
+    desc: Outlying ward
+    position: 2
+    questionnaire_value: null
+    value: Outlying ward
+  - code: 3HDU
+    desc: HDU / ICU / CCU
+    position: 3
+    questionnaire_value: null
+    value: HDU / ICU / CCU
+  - code: 9OthUnk
+    desc: Other / Not known
+    position: 4
+    questionnaire_value: null
+    value: Other / Not known
+- code: ORTwbearPVG
+  values:
+  - code: 0Unrestricted
+    desc: 0 Unrestricted weight bearing
+    position: 0
+    questionnaire_value: null
+    value: Unrestricted weight bearing
+  - code: 1RestrictedNon
+    desc: 1 Restricted / non weight bearing
+    position: 1
+    questionnaire_value: null
+    value: Restricted / non weight bearing
+  - code: 9Notknown
+    desc: 9 Not known
+    position: 2
+    questionnaire_value: null
+    value: Not known
+- code: ORTwdestPVG
+  values:
+  - code: 1PrivRes
+    desc: 1 Private residence (including unit in retirement village)
+    position: 1
+    questionnaire_value: null
+    value: Private residence (including unit in retirement village)
+  - code: 2ResAgedCare
+    desc: 2 Residential aged care facility
+    position: 2
+    questionnaire_value: null
+    value: Residential aged care facility
+  - code: 3RehabPublic
+    desc: 3 Rehabilitation unit public
+    position: 3
+    questionnaire_value: null
+    value: Rehabilitation unit public
+  - code: 4RehabPrivate
+    desc: 4 Rehabilitation unit private
+    position: 4
+    questionnaire_value: null
+    value: Rehabilitation unit private
+  - code: 5OtherHosp
+    desc: 5 Other hospital / ward / specialty
+    position: 5
+    questionnaire_value: null
+    value: Other hospital / ward / specialty
+  - code: 6Deceased
+    desc: 6 Deceased
+    position: 6
+    questionnaire_value: null
+    value: Deceased
+  - code: 7ShortTermResCare
+    desc: 7 Short term care in residential care facility (New Zealand only)
+    position: 7
+    questionnaire_value: null
+    value: Short term care in residential care facility (New Zealand only)
+  - code: 97Other
+    desc: 97 Other
+    position: 8
+    questionnaire_value: null
+    value: Other
+  - code: 99NotKnown
+    desc: 99 Not known
+    position: 9
+    questionnaire_value: null
+    value: Not Known
+reports:
+- access_group:
+  - Admin
+  aggregation: ''
+  collection: cdes
+  created_at: 2021-06-04 09:20:34.962271
+  created_by: admin
+  criteria: None
+  description: ''
+  mongo_search_type: C
+  projection: None
+  registry: dotes
+  sql_query: |-
+    SELECT form.form_id,
+           form.form_name,
+           section.section_id,
+           section.section_name,
+           section.section_code,
+           cde.code           AS cde_code,
+           cde.name           AS cde_name,
+           cde.datatype       AS cde_datatype,
+           cde.allow_multiple AS cde_allow_multiple,
+           cde.is_required AS cde_required,
+           cde.max_length as cde_max_length,
+           cde.min_value as cde_min_value,
+           cde.max_value as cde_max_value,
+           cde.pattern as cde_pattern,
+           cde.calculation as cde_calculation,
+           cde.widget_name AS cde_widget_name,
+           json_each_text(case when widget_settings = '' then null else cast( widget_settings as json) end) as cde_widget_settings,
+           pvg.pvg_codes,
+           pvg.pvg_values
+    FROM (SELECT id                                    AS form_id,
+                 name                                  AS form_name,
+                 regexp_split_to_table(sections, E',') AS section_code
+          FROM rdrf_registryform) AS form
+             JOIN (SELECT id                                    AS section_id,
+                          display_name                          AS section_name,
+                          code                                  AS section_code,
+                          regexp_split_to_table(elements, E',') AS cde_code
+                   FROM rdrf_section) AS section
+                  ON form.section_code = section.section_code
+             JOIN rdrf_commondataelement cde ON section.cde_code = cde.code
+             LEFT OUTER JOIN (SELECT array_to_string(array_agg(code ORDER BY id), ',')  AS pvg_codes,
+                                     array_to_string(array_agg(value ORDER BY id), ',') AS pvg_values,
+                                     pv_group_id
+                              FROM rdrf_cdepermittedvalue
+                              GROUP BY pv_group_id
+    ) AS pvg ON cde.pv_group_id = pvg.pv_group_id
+  title: database dictionary query
+- access_group:
+  - Admin
+  aggregation: ''
+  collection: cdes
+  created_at: 2021-07-23 15:07:45.921887
+  created_by: admin
+  criteria: None
+  description: None
+  mongo_search_type: C
+  projection: '[{"registryCode": "dotes", "formName": "ANZHFR", "sectionCode": "PreAdPreOp",
+    "cdeCode": "ptype", "value": true, "longitudinal": false}, {"registryCode": "dotes",
+    "formName": "ANZHFR", "sectionCode": "PreAdPreOp", "cdeCode": "uresidence", "value":
+    true, "longitudinal": false}, {"registryCode": "dotes", "formName": "ANZHFR",
+    "sectionCode": "PreAdPreOp", "cdeCode": "EDadmit", "value": true, "longitudinal":
+    false}, {"registryCode": "dotes", "formName": "ANZHFR", "sectionCode": "PreAdPreOp",
+    "cdeCode": "Athoscode", "value": true, "longitudinal": false}, {"registryCode":
+    "dotes", "formName": "ANZHFR", "sectionCode": "PreAdPreOp", "cdeCode": "Athoscode2",
+    "value": true, "longitudinal": false}, {"registryCode": "dotes", "formName": "ANZHFR",
+    "sectionCode": "PreAdPreOp", "cdeCode": "tarrdate", "value": true, "longitudinal":
+    false}, {"registryCode": "dotes", "formName": "ANZHFR", "sectionCode": "PreAdPreOp",
+    "cdeCode": "tarrtime", "value": true, "longitudinal": false}, {"registryCode":
+    "dotes", "formName": "ANZHFR", "sectionCode": "PreAdPreOp", "cdeCode": "arrdate",
+    "value": true, "longitudinal": false}, {"registryCode": "dotes", "formName": "ANZHFR",
+    "sectionCode": "PreAdPreOp", "cdeCode": "arrtime", "value": true, "longitudinal":
+    false}, {"registryCode": "dotes", "formName": "ANZHFR", "sectionCode": "PreAdPreOp",
+    "cdeCode": "depdate", "value": true, "longitudinal": false}, {"registryCode":
+    "dotes", "formName": "ANZHFR", "sectionCode": "PreAdPreOp", "cdeCode": "deptime",
+    "value": true, "longitudinal": false}, {"registryCode": "dotes", "formName": "ANZHFR",
+    "sectionCode": "PreAdPreOp", "cdeCode": "ward", "value": true, "longitudinal":
+    false}, {"registryCode": "dotes", "formName": "ANZHFR", "sectionCode": "PreAdPreOp",
+    "cdeCode": "walk", "value": true, "longitudinal": false}, {"registryCode": "dotes",
+    "formName": "ANZHFR", "sectionCode": "PreAdPreOp", "cdeCode": "painassess", "value":
+    true, "longitudinal": false}, {"registryCode": "dotes", "formName": "ANZHFR",
+    "sectionCode": "PreAdPreOp", "cdeCode": "painmanage", "value": true, "longitudinal":
+    false}, {"registryCode": "dotes", "formName": "ANZHFR", "sectionCode": "PreAdPreOp",
+    "cdeCode": "cogstat", "value": true, "longitudinal": false}, {"registryCode":
+    "dotes", "formName": "ANZHFR", "sectionCode": "PreAdPreOp", "cdeCode": "cogassess",
+    "value": true, "longitudinal": false}, {"registryCode": "dotes", "formName": "ANZHFR",
+    "sectionCode": "PreAdPreOp", "cdeCode": "bonemed", "value": true, "longitudinal":
+    false}, {"registryCode": "dotes", "formName": "ANZHFR", "sectionCode": "PreAdPreOp",
+    "cdeCode": "preOp4AT", "value": true, "longitudinal": false}, {"registryCode":
+    "dotes", "formName": "ANZHFR", "sectionCode": "PreAdPreOp", "cdeCode": "passess",
+    "value": true, "longitudinal": false}]'
+  registry: dotes
+  sql_query: |-
+    SELECT
+    id,
+    given_names as "Name/s",
+    family_name as "Last Name"
+
+    FROM patients_patient
+  title: Pre-admission/ Pre-op
+- access_group:
+  - Admin
+  aggregation: ''
+  collection: cdes
+  created_at: 2021-07-23 14:42:02.419272
+  created_by: admin
+  criteria: None
+  description: None
+  mongo_search_type: C
+  projection: '[{"registryCode": "dotes", "formName": "ANZHFR", "sectionCode": "SurgIntra",
+    "cdeCode": "side", "value": true, "longitudinal": false}, {"registryCode": "dotes",
+    "formName": "ANZHFR", "sectionCode": "SurgIntra", "cdeCode": "afracture", "value":
+    true, "longitudinal": false}, {"registryCode": "dotes", "formName": "ANZHFR",
+    "sectionCode": "SurgIntra", "cdeCode": "ftype", "value": true, "longitudinal":
+    false}, {"registryCode": "dotes", "formName": "ANZHFR", "sectionCode": "SurgIntra",
+    "cdeCode": "surg", "value": true, "longitudinal": false}, {"registryCode": "dotes",
+    "formName": "ANZHFR", "sectionCode": "SurgIntra", "cdeCode": "sdate", "value":
+    true, "longitudinal": false}, {"registryCode": "dotes", "formName": "ANZHFR",
+    "sectionCode": "SurgIntra", "cdeCode": "stime", "value": true, "longitudinal":
+    false}, {"registryCode": "dotes", "formName": "ANZHFR", "sectionCode": "SurgIntra",
+    "cdeCode": "delay", "value": true, "longitudinal": false}, {"registryCode": "dotes",
+    "formName": "ANZHFR", "sectionCode": "SurgIntra", "cdeCode": "delayMore48", "value":
+    true, "longitudinal": false}, {"registryCode": "dotes", "formName": "ANZHFR",
+    "sectionCode": "SurgIntra", "cdeCode": "asa", "value": true, "longitudinal": false},
+    {"registryCode": "dotes", "formName": "ANZHFR", "sectionCode": "SurgIntra", "cdeCode":
+    "anaesth", "value": true, "longitudinal": false}, {"registryCode": "dotes", "formName":
+    "ANZHFR", "sectionCode": "SurgIntra", "cdeCode": "analges", "value": true, "longitudinal":
+    false}, {"registryCode": "dotes", "formName": "ANZHFR", "sectionCode": "SurgIntra",
+    "cdeCode": "consult", "value": true, "longitudinal": false}, {"registryCode":
+    "dotes", "formName": "ANZHFR", "sectionCode": "SurgIntra", "cdeCode": "optype",
+    "value": true, "longitudinal": false}]'
+  registry: dotes
+  sql_query: |-
+    SELECT
+    id,
+    given_names as "Name/s",
+    family_name as "Last Name"
+
+    FROM patients_patient
+  title: Surgical/Intra-op
+splash_screen: Welcome
+surveys: []
+working_groups:
+- Unallocated
